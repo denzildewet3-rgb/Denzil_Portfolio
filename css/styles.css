@@ -10848,8 +10848,11 @@ body {
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
-  border: none;
+  border: 2px solid #00ff00;
   border-radius: 10rem;
+  background-color: #000;
+  color: #00ff00;
+
 }
 
 hr.divider {
@@ -10896,14 +10899,14 @@ hr.divider-light {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #00ff00;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #00ff00;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10977,7 +10980,7 @@ header.masthead h1, header.masthead .h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(0, 128, 0, 0.6);
   transition: opacity 0.25s ease;
   text-align: center;
 }
