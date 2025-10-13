@@ -592,7 +592,7 @@ progress {
   margin-top: -1rem;
   margin-bottom: 1rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #6c7d72;
 }
 .blockquote-footer::before {
   content: "— ";
@@ -8127,7 +8127,9 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  /* background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important; */
+  background-color: #000000;
+  color: #39FF14;
 }
 
 .bg-secondary {
@@ -10837,6 +10839,8 @@ body {
 
 .page-section {
   padding: 8rem 0;
+  background-color: #000000;
+  color: #39FF14;
 }
 
 .text-white-75 {
@@ -10859,12 +10863,12 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: #00ff00;
   opacity: 1;
 }
 
 hr.divider-light {
-  background-color: #fff;
+  background-color: #00ff00;
 }
 
 #mainNav {
@@ -10995,4 +10999,17 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+.portfolio-box {
+  position: relative;
+}
+
+.external-link-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 10;
+  pointer-events: auto;
+  display: block;
+  text-decoration: none;
+  background: transparent;
 }
